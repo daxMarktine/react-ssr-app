@@ -11,7 +11,7 @@ const compile = (app) => {
 			publicPath: webpackClientConfig.output.publicPath,
 		});
 		app.use(middleware);
-		app.use(webpackHotMiddleware(compile));
+		app.use(webpackHotMiddleware(compiler));
 	}
 };
 

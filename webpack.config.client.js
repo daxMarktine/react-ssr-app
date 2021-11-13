@@ -21,7 +21,7 @@ const config = {
 			},
 		],
 	},
-	plugins: [new webpack.HotModuleReplacementPlugin(), new webpack.NoEmitOnErrorsPlugin()],
+	plugins: [new webpack.HotModuleReplacementPlugin()],
 	resolve: {
 		alias: {
 			'react-dom': '@hot-loader/react-dom',

@@ -20,6 +20,26 @@ Updated all the work in this sheet as well
 
 ---
 
+### Setup and Start information
+
+```
+requirement
+Node version
+
+	"engines": {
+		"node": "16.13.0",
+		"npm": "8.1.0",
+		"yarn": "1.22.15"
+	}
+
+ Use
+	yarn   -> to install the packages
+	npm install
+
+	Start inst
+	 yarn dev / npm run dev
+```
+
 ### Things to be included in the project
 
 - [ ] Test cases
