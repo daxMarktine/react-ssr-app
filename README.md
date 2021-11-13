@@ -13,6 +13,10 @@ Updated all the work in this sheet as well
 ### Time tracker for the project
 
 -> added the comments here when u make any change with time
+-> 13-Nov - Agenda for the day
+
+- [ ] To set up the react server side and install all the require package
+- List of packages require - React, Node, express
 
 ---
 
