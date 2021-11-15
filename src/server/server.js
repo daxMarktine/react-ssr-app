@@ -51,12 +51,4 @@ app.use((err, req, res, next) => {
 	}
 });
 
-app.listen(config.port, () => {
-	try {
-		console.info(`Express -> Server is running on the ${config.port}`);
-	} catch (e) {
-		console.error('Express -> ', e.message);
-	}
-});
-
 export default app;

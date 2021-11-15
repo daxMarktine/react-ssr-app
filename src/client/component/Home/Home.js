@@ -1,9 +1,11 @@
 import React from 'react';
 
-export const index = () => {
+const Home = () => {
 	return (
 		<div>
 			<h1>Hello from the server side home page</h1>
 		</div>
 	);
 };
+
+export default Home;
